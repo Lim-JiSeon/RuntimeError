@@ -6,17 +6,17 @@ document.querySelector('.img-box2 img').setAttribute('src', '/images/image' + ra
     
 /* page change */
 function homeBtn()  {
-    window.location.href = 'http://127.0.0.1:5500/index.html';
+    window.location.href = 'http://127.0.0.1:5500/HUFSummer%20Hackathon/MZ%EC%84%B8%EB%8C%80/index.html';
     place.length = 0;
 };
 
 function startBtn()  {
-    window.location.href = 'http://127.0.0.1:5500/sub_input.html';
+    window.location.href = 'http://127.0.0.1:5500/HUFSummer%20Hackathon/MZ%EC%84%B8%EB%8C%80/sub_input.html';
     place.length = 0;
 };
 
 function resultBtn() {
-    window.location.href = 'http://127.0.0.1:5500/sub_result.html';
+    window.location.href = 'http://127.0.0.1:5500/HUFSummer%20Hackathon/MZ%EC%84%B8%EB%8C%80/sub_result.html';
 };
 
 /* input value change */
