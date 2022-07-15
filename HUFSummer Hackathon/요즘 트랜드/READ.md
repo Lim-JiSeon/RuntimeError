@@ -8,7 +8,7 @@
 (Refuse, Reduce, Reuse, Recycle, Rot)
 이렇게 5개 스텝으로 설문조사해서 사람마다 유형을 나눈다
 
-index.html과 css,img,js폴더는 대문페이지이고,
+4.index.html과 css,img,js폴더는 대문페이지이고,
 
-zero-waste.com폴더에 있는 파일들은 설문조사하는 페이지입니다.
+5.zero-waste.com폴더에 있는 파일들은 설문조사하는 페이지입니다.
 zero-num 갯수에 따라 result.html에 3개의 유형을 출력 부탁드립니다!
