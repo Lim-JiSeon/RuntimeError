@@ -1,1 +1,14 @@
 # KeyWord : # 요즘 트랜드
+# 친환경을 주제로 '제로 웨이스트 설문조사'를 선택함
+
+1. 비 존슨이 말하는 제로웨이스트 실천 원칙인 5R에 따라 
+2. 나의제로웨이스트점수측정->세가지 유형 나누기->행동양식 추천까지 가보면 어떨까
+
+3. 거절하기, 줄이기, 재사용하기, 재활용하기, 썩히기 
+(Refuse, Reduce, Reuse, Recycle, Rot)
+이렇게 5개 스텝으로 설문조사해서 사람마다 유형을 나눈다
+
+4.index.html index.js index.css는 대문페이지이고,
+
+5.basis.html result.html font.css style.css 설문조사하는 페이지입니다.
+basis.html의 js파트에 zero_num 갯수에 따라 result.html에 3개의 유형을 출력 부탁드립니다!

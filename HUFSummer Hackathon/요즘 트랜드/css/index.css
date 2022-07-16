@@ -1,0 +1,24 @@
+body {
+    position: absolute;
+}
+.wrap{
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.btnBox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 55%;
+}
+/* 지금 zerowaste img 파일 아래부분에 버튼 두개를 올릴려고 하는데 
+position: absolute 했는데도 안되어서 이부분 고치는 거 부탁 드릴게요ㅠ */
