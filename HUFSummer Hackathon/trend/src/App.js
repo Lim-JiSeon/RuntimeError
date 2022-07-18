@@ -11,6 +11,7 @@ function App() {
         <Route path="/" exact={true} element={<Home />} />
         <Route path="/basis-test" element={<BasisTest />} />
         <Route path="/result/:score" element={<Result />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
     </div>
   );

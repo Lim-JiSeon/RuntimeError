@@ -10,6 +10,7 @@ function BasisTest() {
       if (e.target.elements[i].value === "1" && e.target.elements[i].checked)
         count++;
     }
+    window.localStorage.setItem("score", count);
     window.location.replace("/result/" + count);
   }
   return (
