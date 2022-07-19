@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Content from "./components/Content";
 import "./App.css";
 
 function App() {
@@ -24,18 +25,11 @@ function App() {
   }
   function onGeoError() {
     alert("gps error");
-  }
-
+  }  
+  
   return (
     <div>
-      <header>
-        <span id="title">Find Nearby Hospital</span>
-        <div id="content">
-          Hello, this website shows a list of hospitals within 3km based on your location.{"\n"}
-          Click the button to find the coordinates where you're currently located and look for a nearby hospital based on them.
-        </div>
-      </header>
-      
+      <Content></Content>
       {data}
       <div className="div-btn">
         <button id="find-btn"
@@ -46,7 +40,6 @@ function App() {
           }}
         >
           <i class="fa-regular fa-hospital fa-10x"></i>
-          <span>Click</span>
         </button>
       </div>
     </div>

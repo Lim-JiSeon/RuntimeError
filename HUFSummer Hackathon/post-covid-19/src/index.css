@@ -38,6 +38,23 @@ header #content {
   white-space: pre-wrap;
 }
 
+header #change-btn {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#change-btn #change-en,
+#change-btn #change-ko {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 @media screen and (min-width:1500px) {
   header #content {
       font-size: 30px;
