@@ -29,21 +29,25 @@
                 <div class="input-destination">
                     <div class="departure">
                         <span>Departure</span>
-                        <input class="start" type="text" placeholder="start place"><br>
+                        <input id='start' class="start" type="text" placeholder="start place"><br>
+                        <div id='result1'></div>
                     </div>
                     <div class="destination">
                         <span>Destination</span>
-                        <input class="arrive" type="text" placeholder="arrive place">
+                        <input id='arrive' class="arrive" type="text" placeholder="arrive place">
+                        <div id='result2'></div>
                     </div>
                 </div>
-
+                
                 <div class="save-div">
-                    <button class="save-btn" onclick="saveBtn()">
+                    <button type="submit" class="save-btn" onclick="saveBtn()">
                         <i class="fa-solid fa-paper-plane fa-2x"></i>
                         <span class="save">Save &nbsp;</span>
                     </button>
+                    
                 </div>
             </div>
+            
             <!-- API : map image -->
             <section>
                 <div class="temp">
