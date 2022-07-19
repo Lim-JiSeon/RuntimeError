@@ -28,7 +28,13 @@ function App() {
 
   return (
     <div>
-      <header>가까운 병원 찾기</header>
+      <header>
+        <span id="title">Find Nearby Hospital</span>
+        <div id="content">
+          Hello, this website shows a list of hospitals within 3km based on your location.{"\n"}
+          Click the button to find the coordinates where you're currently located and look for a nearby hospital based on them.
+        </div>
+      </header>
       
       {data}
       <div className="div-btn">
@@ -40,7 +46,7 @@ function App() {
           }}
         >
           <i class="fa-regular fa-hospital fa-10x"></i>
-          <span>병원 찾기</span>
+          <span>Click</span>
         </button>
       </div>
     </div>

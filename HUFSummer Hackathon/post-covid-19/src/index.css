@@ -17,12 +17,31 @@ header {
   background-color: #00e1ffec;
   width: 100%;
   min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
 
+header #title {
   text-align: center;
-  line-height: 400px;
+  height: 250px;
+  line-height: 250px;
   color: whitesmoke;
   font-size: 40px;
   font-weight: bold;
+}
+
+header #content {
+  text-align: center;
+  height: 150px;
+  color: rgba(245, 245, 245, 0.879);
+  font-size: 25px;
+  white-space: pre-wrap;
+}
+
+@media screen and (min-width:1500px) {
+  header #content {
+      font-size: 30px;
+  }
 }
 
 .div-btn,
