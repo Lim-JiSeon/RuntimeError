@@ -28,16 +28,21 @@ function App() {
 
   return (
     <div>
+      <header>가까운 병원 찾기</header>
+      
       {data}
-      <button
-        onClick={() => {
-          //버튼이 클릭되면 현재 좌표를 찾는다. 찾았으면 해당 좌표를 인자로 onGeoOk 함수를 실행한다.
-          //onGeoOk 함수에서는 주어진 좌표에 가까운 병원을 찾아낸다.
-          navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
-        }}
-      >
-        병원 찾기
-      </button>
+      <div className="div-btn">
+        <button id="find-btn"
+          onClick={() => {
+            //버튼이 클릭되면 현재 좌표를 찾는다. 찾았으면 해당 좌표를 인자로 onGeoOk 함수를 실행한다.
+            //onGeoOk 함수에서는 주어진 좌표에 가까운 병원을 찾아낸다.
+            navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+          }}
+        >
+          <i class="fa-regular fa-hospital fa-10x"></i>
+          <span>병원 찾기</span>
+        </button>
+      </div>
     </div>
   );
 }
