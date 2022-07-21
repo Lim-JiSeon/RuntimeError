@@ -19,7 +19,7 @@ img {
   text-align: center;
 }
 
-#container {
+#container1 {
   position: relative;
 }
 
@@ -54,38 +54,57 @@ img {
   top: 30%;
 }
 
-/* start button css */
-#img-box2 #start-btn {
+
+#img-box2 #container2 {
   position: absolute;
   width: 100%;
-  top: 80%;
+  height: 200px;
+  top: 70%;
+  text-align: center;
 }
 
-#img-box2 #start-btn #logo {
-  text-align: center;
-  display: block;
-  margin: auto;
-  background-color: transparent;
-  font-size: 10px;
+#img-box2 #container2 #input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   color: whitesmoke;
-  border-radius: 10px;
+}
+
+#img-box2 #input #departure,
+#img-box2 #input #destination {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: black;
+}
+
+#container2 #start-div {
+  margin-top: 30px;
+}
+
+#start-div #start-btn {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: whitesmoke;
+  background-color: transparent;
   border: none;
 }
 
-#img-box2 #start-btn #start {
-  font-style: italic;
-  font-size: 20px;
-  font-family: 'Pacifico', cursive;
-  display: flex;
-  align-items: center;
-  margin-top: 5px;
-  
-}
+
 
 /* main screen size change -> icon and text size change  */
 @media screen and (min-width:1000px) {
   #img-box2 #title {
-      font-size: var(--font-large-xxx);
+      font-size: 100px;
       margin: var(--padding) 0;
   }
 }
@@ -95,10 +114,15 @@ img {
       font-size: 120px;
       margin: 12px 0;
   }
-  #img-box2 #start-btn #start {
-      font-size: 40px;
+  
+  input {
+    font-size: 30px;
   }
-  #img-box2 #start-btn #logo {
-      font-size: 20px;
+
+  #start-div #start-btn {
+    font-size: 30px;
   }
+
 }
+
+

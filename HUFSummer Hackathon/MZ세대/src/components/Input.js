@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import './App.css';
 
 function Input() {
    
@@ -16,8 +14,22 @@ function Input() {
     };
 
     return (
-        <div>
-
+        <div id='container2'>
+            <div id="input">
+                <div id="departure">
+                    <input id='start' type="text" placeholder="start place"></input>
+                </div>
+                <div id="destination">
+                    <input id='arrive' type="text" placeholder="arrive place"></input>
+                </div>
+            </div>
+                
+            <div id="start-div">
+                <button type="submit" id="start-btn">
+                    <FontAwesomeIcon icon={faPaperPlane} size="2x"/>
+                    <span id="save">Start &nbsp;</span>
+                </button>
+            </div>
         </div>
     );
 }
