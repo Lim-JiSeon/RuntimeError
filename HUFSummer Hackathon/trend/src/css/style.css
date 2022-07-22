@@ -5,4 +5,44 @@ body{background-color: aquamarine; text-align: center;}
 img {vertical-align: middle;}
 
 .test{ text-align: center;}
-.select{ }
+.select input{ 
+    font-size: 20px;
+    margin: 10px;
+}
+
+.result-inner {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 252, 230);
+}
+
+.result-inner .result {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 252, 230);
+}
+
+.result-inner .content {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(255, 252, 230);
+}
+
+.content #tip-text,
+.content #tip-video,
+.content #tip-site {
+    width: 33%;
+    text-align: center;
+}
+
+.result-inner a {
+    width: 100%;
+    background-color: rgb(255, 252, 230);
+    text-decoration-line : none;
+    text-decoration : none;
+    color: rgb(135, 97, 16);
+    font-size: 40px;
+}

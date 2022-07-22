@@ -38,6 +38,7 @@ function BasisTest() {
             <input type="radio" name="step1-1" value={0} />
             <span>"일회용품 필요하지 않아도 일단 받고 본다"</span>
             <br />
+            <br />
             2) 가게에서 물건을 살 때 종이영수증 발급을 거절하나요?
             <br />
             <input type="radio" name="step1-2" value={1} />
@@ -51,6 +52,7 @@ function BasisTest() {
             "텀블러 가져가면 백원도 빼주는데 텀블러 들고가면 일석이조"
             <input type="radio" name="step2-1" value={0} />
             "텀블러 무거우니까 그냥 일회용 컵에 주세요"
+            <br />
             <br />
             4) 시장이나 마트에 갈 때 장바구니를 가져가나요?
             <br />
@@ -66,6 +68,7 @@ function BasisTest() {
             <input type="radio" name="step3-1" value={0} />
             "그냥 새 병 사면 되는데 뭐하러 다시 씀? 그냥 버린다"
             <br />
+            <br />
             6) 당근마켓이나 중고나라를 적극적으로 활용하나요?
             <br />
             <input type="radio" name="step3-2" value={1} />
@@ -80,6 +83,7 @@ function BasisTest() {
             <input type="radio" name="step4-1" value={0} />
             "라벨 제거하기 귀찮을 때도 있어서 라벨 붙은 상태로 버릴 때도 있다"
             <br />
+            <br />
             8) 업사이클링이 무엇인지 아시나요?
             <br />
             <input type="radio" name="step4-2" value={1} />
@@ -93,6 +97,7 @@ function BasisTest() {
             "당연하지. 생분해 플라스틱으로 만들어진 물티슈와 비누 사용해보았다"
             <input type="radio" name="step5-1" value={0} />
             "생분해 플라스틱? 생소하다. 그런게 있었나?"
+            <br />
             <br />
             10) 미세플라스틱이 함유되지 않은 천연 제품을 써본 적이 있나요?
             <br />

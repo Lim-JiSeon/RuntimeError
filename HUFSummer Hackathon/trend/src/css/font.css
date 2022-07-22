@@ -3,3 +3,36 @@
 body{
     font-family: 'Nanum Pen Script', cursive;
 }
+
+.test .top {
+    font-size: 20px;
+}
+
+.test .inner {
+    font-size: 16px;
+}
+
+.test .inner .select p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.result {
+    font-size: 40px;
+    color: rgb(46, 132, 61);
+    font-weight: bold
+}
+
+@media screen and (min-width:1300px) {
+    .test .top {
+        font-size: 40px;
+    }
+    
+    .test .inner {
+        font-size: 30px;
+    }
+
+    .test .inner .select p {
+        font-size: 35px;
+    }
+}
